@@ -1,0 +1,234 @@
+body{
+	background: url(image/r.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header{
+	   display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    height: 180px;
+    width: auto;
+     border-radius: 90px;
+    box-shadow: 10px 15px 15px grey;
+    margin-bottom: 80px;
+}
+.baniere{
+    background: url("image/l.jpg");
+    background-repeat:repeat;
+    background-size: cover;
+   height: 150px;
+    margin-top: 90px;
+    border-radius: 90px;
+    box-shadow: 10px 15px 15px grey;
+    position: relative;
+    margin-bottom: 80px;
+}
+.slo{
+    position:relative;
+     width: 1000px;
+    height: 600Px;
+    top: 80px;
+    left: 10%;
+    bottom: 0;
+    color: black;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-bottom: 20px;
+     font-family: wide latin, sans-serif;
+     display: inline-block;
+     border: 2px solid transparent;
+      filter: drop-shadow(10px 10px 10px yellow);
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-checkbox {
+    display: none;
+}
+
+.accordion-label {
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    padding: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+     border-radius: 90px;
+    box-shadow: 10px 15px 15px grey;
+    position: relative;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: transparent;
+    transition: max-height 0.3s ease-out;
+    padding: 0 5px;
+    font-size: 1em;
+    font-family: algerian;
+    color: black;
+}
+
+.accordion-checkbox:checked + .accordion-label + .accordion-content {
+    max-height: 100px; 
+    padding: 15px;
+}
+section{
+    display: flex;
+    margin-bottom: 25px;
+     color: black;
+    font-size: 1em;
+    font-style: italic;
+     font-family: Arial, sans-serif;
+     margin: 10px;
+     padding: 10px;
+}
+article{
+    text-align: left;
+     font-family: Arial, sans-serif;
+    margin-right: 20px;
+    width: 400px;
+    background-color: transparent;
+    color: black;
+      padding-left: 20px;
+    padding-bottom: 20px;
+     margin-top: 90px;
+    border-radius: 90px;
+    box-shadow: 10px 15px 15px grey;
+    position: relative;
+    margin-bottom: 80px;
+}
+.pra{
+    text-align: left;
+    margin-right: 30px;
+    width: 450px;
+    background-color: white;
+    font-size: 1.5em;
+    color: black;
+      padding-left: 30px;
+    padding-bottom: 30px;
+     margin-top: 90px;
+    border-radius: 90px;
+    filter:drop-shadow(25px 15px 25px grey);
+    position: relative;
+    margin-bottom: 80px;
+}
+
+footer{
+    display: flex;
+    background-color: grey;
+    color: white;
+}
+footer h1{
+    font-size: 1em;
+}
+#photo img{
+    height: 60px;
+    width: 40px;
+}
+#message{
+    width: 30%;
+    padding-left: 10px;
+}
+#photo{
+    width: 40%;
+}
+#partenaire{
+    width: 30%;
+}
+table{
+    position: center;
+    filter:drop-shadow(25px 15px 25px grey);
+     font-family: wide latin, sans-serif;
+    background-position: center;
+    width: 1000px;
+    height: 500Px;
+    position: relative;
+    color: black;
+    font-size: 1.5em;
+     margin-top: 90px;
+    border-radius: 90px;
+    box-shadow: 30px 30px 35px grey;
+    position: relative;
+    margin-bottom: 80px;
+     filter: drop-shadow(10px 10px 10px yellow)
+
+}
+h1{
+    text-align: center;
+    font-style: inherit;
+}
+form{
+    position: center;
+    background-color: transparent;
+    background-position: center;
+    width: 300px;
+    height: auto;
+    position: relative;
+    color: black;
+    font-size: 1.5em;
+     margin-top: 90px;
+    border-radius: 90px;
+    box-shadow: 39px 35px 30px grey;
+    position: relative;
+    margin-bottom: 90px;
+}
+.cont{
+     position: center;
+    background-color: transparent;
+    background-position: center;
+    position: relative;
+    color: black;
+     
+}
+h3{
+     text-align: center;
+     filter: drop-shadow(10px 10px 10px yellow);
+}
+h2{
+    text-align: center;
+     filter: drop-shadow(10px 10px 10px yellow);
+}
+.co{
+   text-align: center;
+     filter: drop-shadow(10px 10px 10px yellow);
+     font-size: 1.5em;
+     margin-top: 90px;
+    border-radius: 90px;
+    position: relative;
+    margin-bottom: 90px;
+}
